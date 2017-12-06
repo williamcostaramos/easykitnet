@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Pagina Incial -  EasyKitnet</title>
 	<link rel="shortcut icon"  href="img/icon.png">
 	<link rel="stylesheet" type="text/css" href="css/boot.css">
@@ -26,10 +27,69 @@
 	</div><!--fechamento do content -->
 	
 	</header>
-	<main class="container bg-blue">
+	<main class="container bg-since">
 		<div class="content">
 				
-			
+			<div class="main_login fl-left box-large">
+				<header class="article-title">
+					<h1>Fazer Login</h1>
+					<p class="tagline">Ja Possuo cadastro</p>
+				</header>
+				<form name="login" action="" method="post">
+					<label>
+						<span>Usuario</span>
+						<input type="email" name="email" placeholder="Informe seu E-mail">
+
+					</label>
+					<label>
+						<span>Senha</span>
+						<input type="senha" name="senha" placeholder="Informe sua Senha">
+					</label>
+					<div class="form-action al-right">
+						<a href="" class="">Esqueceu a Senha</a>
+						<a href="painel.html" class="btn btn-blue" name="login">Fazer Login</a>
+					</div>
+				</form>
+
+			</div>	
+
+
+			<div class="main_login fl-right box-large last">
+				<header class="article-title">
+					<h1>Cadastrar</h1>
+					<p class="tagline">Ainda não Possuo Cadastro</p>
+				</header>
+				<form name="login" action="" method="post">
+					<label>
+						<span>Nome</span>
+						<input type="email" name="email" placeholder="Informe seu Nome">
+
+					</label>
+
+						<label>
+						<span>Usuario</span>
+						<input type="email" name="email" placeholder="Informe seu E-mail">
+
+					</label>
+					<label>
+						<span>Senha</span>
+						<input type="senha" name="senha" placeholder="Informe sua Senha">
+					</label>
+					<label>
+						<span>CPF</span>
+						<input type="text" name="senha" placeholder="Informe seu CPF">
+					</label>
+					<label>
+						<span>Telefone</span>
+						<input type="tel" name="senha" placeholder="Informe seu Telefone">
+					</label>
+					<div class="form-action al-right">
+						<input type="reset" name="reset" class="btn btn-orange" style="margin-right: 10px;" value="Limpar Dados">
+						<a href="painel.html" class="btn btn-green" name="login">Cadastrar</a>
+					</div>
+				</form>
+
+			</div>
 
 
 			<div class="clear"></div>
@@ -37,9 +97,10 @@
 		
 	</main>
 	<footer class="main_footer al-center">
-		<p>www.easykitnet.com.br</p>
-		<p>&copy Todos os Direitos reservados 2017</p>
+		<p>www.easykitnet.com.br &copy Todos os Direitos reservados 2017</p>
+
 	</footer>
+
 
 </body>
 </html>
